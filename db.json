@@ -3,49 +3,52 @@
         {
             "id": 1,
             "name": "Heineken",
-            "type": "Lager",
+            "type_id": 1,
             "country": "Nederland",
             "alcohol_percentage": 5.0
         },
         {
             "id": 2,
             "name": "Corona Extra",
-            "type": "Lager",
+            "type_id": 1,
             "country": "Mexico",
             "alcohol_percentage": 4.5
         },
         {
             "id": 3,
             "name": "Guinness",
-            "type": "Stout",
+            "type_id": 2,
             "country": "Ierland",
             "alcohol_percentage": 4.2
         },
         {
             "id": 4,
             "name": "Chimay Blue",
-            "type": "Belgian Dark Strong Ale",
+            "type_id": 3,
             "country": "België",
             "alcohol_percentage": 9.0
         },
         {
             "id": 5,
             "name": "Budweiser",
-            "type": "Lager",
+            "type_id": 1,
             "country": "Verenigde Staten",
             "alcohol_percentage": 5.0
         }
     ],
     "beer_types": [
         {
+            "id": 1,
             "type": "Lager",
             "characteristics": "Licht, verfrissend, vaak met een bittere afdronk"
         },
         {
+            "id": 2,
             "type": "Stout",
             "characteristics": "Donker, vol, geroosterde smaken zoals koffie en chocolade"
         },
         {
+            "id": 3,
             "type": "Belgian Dark Strong Ale",
             "characteristics": "Krachtig, complex, vaak met fruitige en zoete smaken"
         }
